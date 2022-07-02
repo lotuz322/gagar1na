@@ -1,0 +1,22 @@
+.subheader {
+    height: 255px;
+}
+
+.subheader__background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: no-repeat center / 100% 100% url(../../images/sub-header-background.png);
+}
+
+.subheader__title {
+    margin: 0;
+    padding: 66px 0 0 66px;
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -1.5px;
+    color: white;
+}

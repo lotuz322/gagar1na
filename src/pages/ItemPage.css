@@ -1,0 +1,118 @@
+.item-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.item-page__container-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.item-page__image {
+    width: 500px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.item-page__title {
+    font-size: 46px;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.item-page__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    max-width: 500px;
+    white-space: pre-line;
+}
+
+.item-page__colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item-page__colors-item {
+    height: 140px;
+    width: 140px;
+}
+
+.item-page__color-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdbdbd;
+    border-radius: 30px;
+    height: 60px;
+    width: 330px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 20px auto;
+}
+
+.item-page__color-link:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.item-page__color-link:hover:before {
+    opacity: 0.5;
+}
+
+.item-page__standard-color-list-title {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.item-page__standard-color-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.item-page__info-image-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.item-page__info-image-list-item {
+    width: 130px;
+}
+
+.item-page__info-image-list-item-title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+
+.item-page__info-image-list-item-image {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}

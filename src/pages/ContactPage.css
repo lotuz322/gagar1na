@@ -1,0 +1,12 @@
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.main-page__title {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+.gallery {
+    max-width: 100%;
+}
+
+.gallery__viewing {
+    height: 640px;
+    position: relative;
+}
+
+.gallery__viewing-item {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.gallery__image-list-container {
+    padding: 5px 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery__image-list-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gallery__image-list {
+    display: flex;
+    min-width: 945px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gallery__image-list-item {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery__image-list-item_active {
+    box-sizing: border-box;
+    border: 3px solid grey;
+}
+
+.gallery__image-list-scroll {
+    padding: 0;
+    height: 100px;
+    width: 30px;
+    border: none;
+    transition: opacity 0.5s;
+    background: no-repeat center/20px 20px url(../../images/left-arrow-svgrepo-com.svg);
+}
+
+.gallery__image-list-scroll_right {
+    transform: rotate(180deg);
+}
+
+.gallery__image-list-scroll:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+

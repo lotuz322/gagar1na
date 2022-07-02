@@ -1,0 +1,45 @@
+.header {
+    height: 171px;
+    display: grid;
+    padding: 35px 15px;
+    box-sizing: border-box;
+    background: repeat url(../../images/background.png);
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "info ."
+        "logo menu";
+}
+
+.header__info {
+    grid-area: info;
+}
+
+.header__info-text {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+}
+
+.header__menu {
+    grid-area: menu;
+    justify-self: end;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.header__menu-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu-link_active {
+    color: lawngreen;
+}
+
+.header__logo {
+    grid-area: logo;
+    justify-self: start;
+    align-self: end;
+}

@@ -1,0 +1,12 @@
+export const img0 = require("./2b7a8ace2b7e24a7608c2eb3cbb6b046_190x196.55172413793.jpg");
+export const img1 = require("./5ac04b21d3fa2a991bb8f8ce0d91714f_190x196.55172413793.jpg");
+export const img2 = require("./6ba4b1b3dd777faffeb070db421751f6_190x196.55172413793.jpg");
+export const img3 = require("./6e324c2b14096978464d4303ccc5294e_190x196.55172413793.jpg");
+export const img4 = require("./82dbfce0c1ed7288345cb6f7c2d67c16_190x196.55172413793.jpg");
+export const img5 = require("./709f54ccc49b6ef7e24d90c0b83b2e34_190x196.55172413793.jpg");
+export const img6 = require("./2559f0984087559c799291eea0f0cb23_190x196.55172413793.jpg");
+export const img7 = require("./4376c20c8198bdad023f0d9c11c5645d_190x196.55172413793.jpg");
+export const img8 = require("./a2f84598f203eab756fc669a81635459_190x196.55172413793.jpg");
+export const img9 = require("./a57dff4989575dee9e1b2cbe768e87cc_190x196.55172413793.jpg");
+export const img10 = require("./ca2bf7b85c2ce13070da9a7e03c2a656_190x196.55172413793.jpg");
+export const img11 = require("./d58fe176f4b45a2963cdf1a36a2cb171_190x196.55172413793.jpg");
